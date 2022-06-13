@@ -6,8 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="codelab_8" />
+        <module name="server" />
+        <module name="cli_client" />
+        <module name="javaFX_client" />
+        <module name="swing_client" />
+        <module name="common" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-fx" target="8" />
+      <module name="untitled" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
