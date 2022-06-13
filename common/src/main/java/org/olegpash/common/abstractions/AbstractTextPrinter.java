@@ -1,4 +1,9 @@
 package org.olegpash.common.abstractions;
 
-public class AbstractTextPrinter {
+public abstract class AbstractTextPrinter {
+
+    public abstract void printText(String text);
+
+    public abstract void printlnText(String text);
+
 }
