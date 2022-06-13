@@ -1,5 +1,12 @@
 package org.olegpash.client.util;
 
+import org.olegpash.common.util.DeSerializer;
+import org.olegpash.common.util.Serializer;
+
+import java.io.IOException;
+import java.net.*;
+import java.nio.ByteBuffer;
+
 public class ClientSocketWorker {
     private final int defaultPort = 228;
     private final int timeToResponse = 4000;

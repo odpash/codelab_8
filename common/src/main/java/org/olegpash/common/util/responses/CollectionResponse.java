@@ -1,6 +1,8 @@
 package org.olegpash.common.util.responses;
 
 
+import org.olegpash.common.abstractions.AbstractResponse;
+
 import java.util.List;
 import java.util.Set;
 

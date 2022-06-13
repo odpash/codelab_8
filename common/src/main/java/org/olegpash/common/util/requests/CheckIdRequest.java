@@ -1,5 +1,7 @@
 package org.olegpash.common.util.requests;
 
+import org.olegpash.common.abstractions.AbstractRequest;
+
 public class CheckIdRequest extends AbstractRequest {
 
     private final Long id;

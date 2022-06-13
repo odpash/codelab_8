@@ -1,6 +1,11 @@
 package org.olegpash.client.util;
 
 
+import org.olegpash.client.ClientConfig;
+import org.olegpash.client.cmdTools.ClientCommandListener;
+import org.olegpash.common.exceptions.WrongAmountOfArgsException;
+import org.olegpash.common.util.TextColoring;
+
 import java.io.IOException;
 import java.net.SocketTimeoutException;
 import java.time.LocalTime;

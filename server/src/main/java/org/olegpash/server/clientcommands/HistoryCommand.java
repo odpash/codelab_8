@@ -1,11 +1,11 @@
 package org.olegpash.server.clientcommands;
 
 
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.common.util.requests.CommandRequest;
-import emented.lab8FX.common.util.responses.CommandResponse;
-import emented.lab8FX.server.abstractions.AbstractClientCommand;
-import emented.lab8FX.server.db.DBManager;
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.common.util.requests.CommandRequest;
+import org.olegpash.common.util.responses.CommandResponse;
+import org.olegpash.server.abstractions.AbstractClientCommand;
+import org.olegpash.server.db.DBManager;
 
 import java.util.ArrayDeque;
 

@@ -1,4 +1,11 @@
 package org.olegpash.client.util;
+
+import org.olegpash.client.ClientConfig;
+import org.olegpash.client.cmdTools.MusicBandGenerator;
+import org.olegpash.common.exceptions.WrongAmountOfArgsException;
+import org.olegpash.common.exceptions.WrongArgException;
+import org.olegpash.common.util.TextColoring;
+
 public final class RequestCreator {
 
     private RequestCreator() {

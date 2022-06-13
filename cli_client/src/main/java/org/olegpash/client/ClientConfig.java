@@ -1,5 +1,8 @@
 package org.olegpash.client;
 
+import org.olegpash.common.abstractions.AbstractTextPrinter;
+import org.olegpash.common.util.ConsoleTextPrinter;
+
 import java.util.HashSet;
 import java.util.Set;
 

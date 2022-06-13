@@ -1,6 +1,11 @@
 package org.olegpash.client.util;
 
 
+import org.olegpash.client.ClientConfig;
+import org.olegpash.common.exceptions.WrongAmountOfArgsException;
+import org.olegpash.common.exceptions.WrongArgException;
+import org.olegpash.common.util.TextColoring;
+
 import java.util.NoSuchElementException;
 import java.util.Scanner;
 import java.util.function.Function;

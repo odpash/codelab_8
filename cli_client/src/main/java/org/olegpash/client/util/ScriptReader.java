@@ -1,5 +1,13 @@
 package org.olegpash.client.util;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Locale;
+
 public class ScriptReader {
 
     private ArrayList<CommandToSend> commandsFromFile = new ArrayList<>();

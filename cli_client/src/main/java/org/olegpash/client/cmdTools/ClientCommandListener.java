@@ -1,6 +1,10 @@
 package org.olegpash.client.cmdTools;
 
 
+import org.olegpash.client.ClientConfig;
+import org.olegpash.client.util.CommandToSend;
+import org.olegpash.common.util.TextColoring;
+
 import java.io.InputStream;
 import java.util.Arrays;
 import java.util.Locale;

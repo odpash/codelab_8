@@ -1,5 +1,7 @@
 package org.olegpash.common.util;
 
+import org.olegpash.common.abstractions.AbstractTextPrinter;
+
 public class ConsoleTextPrinter extends AbstractTextPrinter {
 
     public void printText(String text) {

@@ -1,21 +1,21 @@
 package org.olegpash.server.util;
 
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.common.util.requests.CheckIdRequest;
-import emented.lab8FX.common.util.requests.CollectionRequest;
-import emented.lab8FX.common.util.requests.CommandRequest;
-import emented.lab8FX.common.util.responses.CheckIdResponse;
-import emented.lab8FX.common.util.responses.CollectionResponse;
-import emented.lab8FX.common.util.responses.CommandResponse;
-import emented.lab8FX.server.ServerConfig;
-import emented.lab8FX.server.abstractions.AbstractClientCommand;
-import emented.lab8FX.server.abstractions.AbstractServerCommand;
-import emented.lab8FX.server.clientcommands.*;
-import emented.lab8FX.server.db.DBManager;
-import emented.lab8FX.server.servercommands.ServerExitCommand;
-import emented.lab8FX.server.servercommands.ServerHelpCommand;
-import emented.lab8FX.server.servercommands.ServerHistoryCommand;
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.common.util.requests.CheckIdRequest;
+import org.olegpash.common.util.requests.CollectionRequest;
+import org.olegpash.common.util.requests.CommandRequest;
+import org.olegpash.common.util.responses.CheckIdResponse;
+import org.olegpash.common.util.responses.CollectionResponse;
+import org.olegpash.common.util.responses.CommandResponse;
+import org.olegpash.server.ServerConfig;
+import org.olegpash.server.abstractions.AbstractClientCommand;
+import org.olegpash.server.abstractions.AbstractServerCommand;
+import org.olegpash.server.clientcommands.*;
+import org.olegpash.server.db.DBManager;
+import org.olegpash.server.servercommands.ServerExitCommand;
+import org.olegpash.server.servercommands.ServerHelpCommand;
+import org.olegpash.server.servercommands.ServerHistoryCommand;
 
 import java.time.format.DateTimeFormatter;
 

@@ -1,8 +1,8 @@
 package org.olegpash.server.util;
 
 
-import emented.lab8FX.common.entities.MusicBand;
-import emented.lab8FX.common.exceptions.CollectionIsEmptyException;
+import org.olegpash.common.entities.MusicBand;
+import org.olegpash.common.exceptions.CollectionIsEmptyException;
 
 import java.time.LocalDate;
 import java.util.*;

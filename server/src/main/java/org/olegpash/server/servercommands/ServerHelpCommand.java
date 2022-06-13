@@ -1,8 +1,8 @@
 package org.olegpash.server.servercommands;
 
 
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.server.abstractions.AbstractServerCommand;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.server.abstractions.AbstractServerCommand;
 
 import java.util.HashMap;
 

@@ -1,7 +1,7 @@
 package org.olegpash.server.interfaces;
 
-import emented.lab8FX.common.abstractions.AbstractResponse;
-import emented.lab8FX.server.util.RequestWithAddress;
+import org.olegpash.common.abstractions.AbstractResponse;
+import org.olegpash.server.util.RequestWithAddress;
 
 import java.io.IOException;
 import java.net.SocketAddress;

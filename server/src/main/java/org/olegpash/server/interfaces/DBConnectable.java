@@ -1,6 +1,6 @@
 package org.olegpash.server.interfaces;
 
-import emented.lab8FX.common.exceptions.DatabaseException;
+import org.olegpash.common.exceptions.DatabaseException;
 
 import java.sql.Connection;
 

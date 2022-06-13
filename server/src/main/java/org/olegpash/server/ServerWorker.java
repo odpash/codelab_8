@@ -1,13 +1,13 @@
 package org.olegpash.server;
 
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.server.db.DBLocalConnector;
-import emented.lab8FX.server.db.DBManager;
-import emented.lab8FX.server.db.DBSSHConnector;
-import emented.lab8FX.server.interfaces.DBConnectable;
-import emented.lab8FX.server.interfaces.SocketWorkerInterface;
-import emented.lab8FX.server.util.*;
+
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.server.db.DBLocalConnector;
+import org.olegpash.server.db.DBManager;
+import org.olegpash.server.interfaces.DBConnectable;
+import org.olegpash.server.interfaces.SocketWorkerInterface;
+import org.olegpash.server.util.*;
 
 import java.io.IOException;
 import java.util.Locale;

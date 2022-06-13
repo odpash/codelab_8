@@ -3,12 +3,12 @@ package org.olegpash.server.db;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.JSchException;
 import com.jcraft.jsch.Session;
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.server.ServerConfig;
-import emented.lab8FX.server.interfaces.DBConnectable;
-import emented.lab8FX.server.interfaces.SQLConsumer;
-import emented.lab8FX.server.interfaces.SQLFunction;
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.server.ServerConfig;
+import org.olegpash.server.interfaces.DBConnectable;
+import org.olegpash.server.interfaces.SQLConsumer;
+import org.olegpash.server.interfaces.SQLFunction;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

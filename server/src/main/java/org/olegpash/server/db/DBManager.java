@@ -1,12 +1,12 @@
 package org.olegpash.server.db;
 
-import emented.lab8FX.common.entities.Coordinates;
-import emented.lab8FX.common.entities.MusicBand;
-import emented.lab8FX.common.entities.Studio;
-import emented.lab8FX.common.entities.enums.MusicGenre;
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.server.interfaces.DBConnectable;
-import emented.lab8FX.server.util.StringEncryptor;
+import org.olegpash.common.entities.Coordinates;
+import org.olegpash.common.entities.MusicBand;
+import org.olegpash.common.entities.Studio;
+import org.olegpash.common.entities.enums.MusicGenre;
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.server.interfaces.DBConnectable;
+import org.olegpash.server.util.StringEncryptor;
 
 import java.sql.*;
 import java.util.ArrayList;

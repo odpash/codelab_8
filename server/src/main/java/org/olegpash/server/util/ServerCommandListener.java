@@ -1,7 +1,7 @@
 package org.olegpash.server.util;
 
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.server.ServerConfig;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.server.ServerConfig;
 
 import java.util.Locale;
 import java.util.NoSuchElementException;

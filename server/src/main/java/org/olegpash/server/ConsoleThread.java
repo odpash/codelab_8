@@ -1,7 +1,8 @@
 package org.olegpash.server;
 
-import emented.lab8FX.server.util.CommandManager;
-import emented.lab8FX.server.util.ServerCommandListener;
+
+import org.olegpash.server.util.CommandManager;
+import org.olegpash.server.util.ServerCommandListener;
 
 public class ConsoleThread implements Runnable {
 

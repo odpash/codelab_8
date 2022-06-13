@@ -1,7 +1,7 @@
 package org.olegpash.server.util;
 
 
-import emented.lab8FX.common.abstractions.AbstractRequest;
+import org.olegpash.common.abstractions.AbstractRequest;
 
 import java.net.SocketAddress;
 

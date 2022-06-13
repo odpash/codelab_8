@@ -1,9 +1,9 @@
 package org.olegpash.server.util;
 
-import emented.lab8FX.common.abstractions.AbstractResponse;
-import emented.lab8FX.common.util.DeSerializer;
-import emented.lab8FX.common.util.Serializer;
-import emented.lab8FX.server.interfaces.SocketWorkerInterface;
+import org.olegpash.common.abstractions.AbstractResponse;
+import org.olegpash.common.util.DeSerializer;
+import org.olegpash.common.util.Serializer;
+import org.olegpash.server.interfaces.SocketWorkerInterface;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

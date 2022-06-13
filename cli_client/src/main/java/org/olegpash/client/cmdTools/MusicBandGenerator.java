@@ -1,6 +1,8 @@
 package org.olegpash.client.cmdTools;
 
 
+import org.olegpash.client.util.CommandValidators;
+
 import java.util.Locale;
 import java.util.Scanner;
 

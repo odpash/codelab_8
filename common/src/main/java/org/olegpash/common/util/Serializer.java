@@ -1,5 +1,8 @@
 package org.olegpash.common.util;
 
+import org.olegpash.common.abstractions.AbstractRequest;
+import org.olegpash.common.abstractions.AbstractResponse;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;

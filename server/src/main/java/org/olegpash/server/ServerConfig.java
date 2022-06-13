@@ -1,10 +1,10 @@
 package org.olegpash.server;
 
-import emented.lab8FX.common.abstractions.AbstractTextPrinter;
-import emented.lab8FX.common.util.CommandHistory;
-import emented.lab8FX.common.util.ConsoleTextPrinter;
-import emented.lab8FX.server.abstractions.AbstractClientCommand;
-import emented.lab8FX.server.abstractions.AbstractServerCommand;
+import org.olegpash.common.abstractions.AbstractTextPrinter;
+import org.olegpash.common.util.CommandHistory;
+import org.olegpash.common.util.ConsoleTextPrinter;
+import org.olegpash.server.abstractions.AbstractClientCommand;
+import org.olegpash.server.abstractions.AbstractServerCommand;
 
 import java.util.HashMap;
 

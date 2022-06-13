@@ -1,16 +1,16 @@
 package org.olegpash.server;
 
 
-import emented.lab8FX.common.abstractions.AbstractRequest;
-import emented.lab8FX.common.abstractions.AbstractResponse;
-import emented.lab8FX.common.util.TextColoring;
-import emented.lab8FX.common.util.requests.*;
-import emented.lab8FX.common.util.responses.ConnectionResponse;
-import emented.lab8FX.server.db.DBSSHConnector;
-import emented.lab8FX.server.interfaces.SocketWorkerInterface;
-import emented.lab8FX.server.util.CommandManager;
-import emented.lab8FX.server.util.RequestWithAddress;
-import emented.lab8FX.server.util.UsersManager;
+import org.olegpash.common.abstractions.AbstractRequest;
+import org.olegpash.common.abstractions.AbstractResponse;
+import org.olegpash.common.util.TextColoring;
+import org.olegpash.common.util.requests.*;
+import org.olegpash.common.util.responses.ConnectionResponse;
+import org.olegpash.server.db.DBSSHConnector;
+import org.olegpash.server.interfaces.SocketWorkerInterface;
+import org.olegpash.server.util.CommandManager;
+import org.olegpash.server.util.RequestWithAddress;
+import org.olegpash.server.util.UsersManager;
 
 import java.io.IOException;
 import java.util.concurrent.*;

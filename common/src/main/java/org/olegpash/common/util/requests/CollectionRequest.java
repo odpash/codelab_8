@@ -1,6 +1,8 @@
 package org.olegpash.common.util.requests;
 
 
+import org.olegpash.common.abstractions.AbstractRequest;
+
 public class CollectionRequest extends AbstractRequest {
 
     private final String username;

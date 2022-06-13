@@ -1,10 +1,10 @@
 package org.olegpash.server.util;
 
-import emented.lab8FX.common.exceptions.DatabaseException;
-import emented.lab8FX.common.util.requests.LoginRequest;
-import emented.lab8FX.common.util.requests.RegisterRequest;
-import emented.lab8FX.common.util.responses.AuthResponse;
-import emented.lab8FX.server.db.DBManager;
+import org.olegpash.common.exceptions.DatabaseException;
+import org.olegpash.common.util.requests.LoginRequest;
+import org.olegpash.common.util.requests.RegisterRequest;
+import org.olegpash.common.util.responses.AuthResponse;
+import org.olegpash.server.db.DBManager;
 
 public class UsersManager {
 

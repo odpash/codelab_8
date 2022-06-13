@@ -1,7 +1,7 @@
 package org.olegpash.server.abstractions;
 
-import emented.lab8FX.common.util.requests.CommandRequest;
-import emented.lab8FX.common.util.responses.CommandResponse;
+import org.olegpash.common.util.requests.CommandRequest;
+import org.olegpash.common.util.responses.CommandResponse;
 
 public abstract class AbstractClientCommand {
 
