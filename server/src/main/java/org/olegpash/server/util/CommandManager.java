@@ -40,9 +40,7 @@ public class CommandManager {
         AbstractClientCommand addIfMaxCommand = new AddIfMinCommand(dbManager, collectionManager);
         AbstractClientCommand removeGreaterCommand = new RemoveGreaterCommand(dbManager, collectionManager);
         AbstractClientCommand historyCommand = new HistoryCommand(ServerConfig.getClientCommandHistory().getHistory(), dbManager);
-        AbstractClientCommand removeAnyByNumberOfParticipantsCommand = new RemoveAnyByNumberOfParticipantsCommand(dbManager, collectionManager);
-        AbstractClientCommand minByStudioCommand = new MinByStudioCommand(dbManager, collectionManager);
-        AbstractClientCommand countLessThanNumberOfParticipantsCommand = new CountLessThanNumberOfParticipantsCommand(dbManager, collectionManager);
+        AbstractClientCommand countByGenreCommand = new CountByGenreCommand(dbManager, collectionManager);
         AbstractServerCommand helpServerCommand = new ServerHelpCommand(ServerConfig.getServerAvailableCommands());
         AbstractServerCommand exitServerCommand = new ServerExitCommand();
         AbstractServerCommand historyServerCommand = new ServerHistoryCommand(ServerConfig.getClientCommandHistory().getHistory());
@@ -56,10 +54,7 @@ public class CommandManager {
         ServerConfig.getClientAvailableCommands().put(addIfMaxCommand.getName(), addIfMaxCommand);
         ServerConfig.getClientAvailableCommands().put(removeGreaterCommand.getName(), removeGreaterCommand);
         ServerConfig.getClientAvailableCommands().put(historyCommand.getName(), historyCommand);
-        ServerConfig.getClientAvailableCommands().put(removeAnyByNumberOfParticipantsCommand.getName(), removeAnyByNumberOfParticipantsCommand);
-        ServerConfig.getClientAvailableCommands().put(minByStudioCommand.getName(), minByStudioCommand);
-        ServerConfig.getClientAvailableCommands().put(countLessThanNumberOfParticipantsCommand.getName(), countLessThanNumberOfParticipantsCommand);
-
+        ServerConfig.getClientAvailableCommands().put(countByGenreCommand.getName(), countByGenreCommand);
         ServerConfig.getServerAvailableCommands().put(helpServerCommand.getName(), helpServerCommand);
         ServerConfig.getServerAvailableCommands().put(exitServerCommand.getName(), exitServerCommand);
         ServerConfig.getServerAvailableCommands().put(historyServerCommand.getName(), historyServerCommand);
