@@ -9,12 +9,12 @@
         <module name="server" />
         <module name="cli_client" />
         <module name="javaFX_client" />
-        <module name="swing_client" />
         <module name="common" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client-fx" target="8" />
+      <module name="swing_client" target="8" />
       <module name="untitled" target="8" />
     </bytecodeTargetLevel>
   </component>

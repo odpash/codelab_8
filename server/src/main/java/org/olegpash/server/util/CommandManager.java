@@ -37,7 +37,7 @@ public class CommandManager {
         AbstractClientCommand updateCommand = new UpdateCommand(dbManager, collectionManager);
         AbstractClientCommand removeByIdCommand = new RemoveByIdCommand(dbManager, collectionManager);
         AbstractClientCommand clearCommand = new ClearCommand(dbManager, collectionManager);
-        AbstractClientCommand addIfMaxCommand = new AddIfMaxCommand(dbManager, collectionManager);
+        AbstractClientCommand addIfMaxCommand = new AddIfMinCommand(dbManager, collectionManager);
         AbstractClientCommand removeGreaterCommand = new RemoveGreaterCommand(dbManager, collectionManager);
         AbstractClientCommand historyCommand = new HistoryCommand(ServerConfig.getClientCommandHistory().getHistory(), dbManager);
         AbstractClientCommand removeAnyByNumberOfParticipantsCommand = new RemoveAnyByNumberOfParticipantsCommand(dbManager, collectionManager);

@@ -2,6 +2,7 @@ package org.olegpash.server.util;
 
 
 import org.olegpash.common.entities.MusicBand;
+import org.olegpash.common.entities.enums.MusicGenre;
 import org.olegpash.common.exceptions.CollectionIsEmptyException;
 
 import java.time.LocalDate;
@@ -127,12 +128,24 @@ public class CollectionManager {
         }
     }
 
-    public boolean checkMax(MusicBand musicBand) {
+
+    public String genreCount(MusicGenre genre) {
+        int count = 0;
+        for (MusicBand band: musicBands) {
+            if (genre.equals(band.getGenre())) {
+                count++;
+            }
+        }
+        return String.valueOf(count);
+    }
+
+
+    public boolean checkMin(MusicBand musicBand) {
         try {
             reentrantLock.lock();
             boolean check = true;
             for (MusicBand band : musicBands) {
-                if (band.compareTo(musicBand) >= 0) {
+                if (musicBand.compareTo(band) >= 0) {
                     check = false;
                     break;
                 }
@@ -179,7 +192,7 @@ public class CollectionManager {
         try {
             reentrantLock.lock();
             if (!musicBands.isEmpty()) {
-                List<MusicBand> sortedBands = new ArrayList<>(musicBands).stream().sorted().toList();
+                List<MusicBand> sortedBands = (List<MusicBand>) new ArrayList<>(musicBands).stream().sorted();
                 return sortedBands.get(0);
             } else {
                 throw new CollectionIsEmptyException("Collection is empty");
@@ -228,5 +241,6 @@ public class CollectionManager {
             reentrantLock.unlock();
         }
     }
+
 }
 

@@ -2,7 +2,9 @@ package org.olegpash.client.util;
 
 import org.olegpash.common.util.DeSerializer;
 import org.olegpash.common.util.Serializer;
+import org.olegpash.common.util.requests.Request;
 
+import org.olegpash.common.util.responses.Response;
 import java.io.IOException;
 import java.net.*;
 import java.nio.ByteBuffer;
@@ -39,7 +41,7 @@ public class ClientSocketWorker {
     }
 
     public void sendRequest(Request request) throws IOException {
-        ByteBuffer byteBuffer = Serializer.serializeRequest(request);
+        ByteBuffer byteBuffer = Serializer.serializeRequestOld(request);
         byte[] bufferToSend = byteBuffer.array();
         DatagramPacket datagramPacket = new DatagramPacket(bufferToSend, bufferToSend.length, serverAddress, port);
         datagramSocket.send(datagramPacket);
@@ -52,6 +54,6 @@ public class ClientSocketWorker {
         DatagramPacket dpFromServer = new DatagramPacket(byteBuf, byteBuf.length);
         datagramSocket.receive(dpFromServer);
         byte[] bytesFromServer = dpFromServer.getData();
-        return DeSerializer.deSerializeResponse(bytesFromServer);
+        return DeSerializer.deSerializeResponseOld(bytesFromServer);
     }
 }

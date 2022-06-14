@@ -5,6 +5,9 @@ import org.olegpash.client.ClientConfig;
 import org.olegpash.client.cmdTools.ClientCommandListener;
 import org.olegpash.common.exceptions.WrongAmountOfArgsException;
 import org.olegpash.common.util.TextColoring;
+import org.olegpash.common.util.requests.Request;
+import org.olegpash.common.util.responses.Response;
+
 
 import java.io.IOException;
 import java.net.SocketTimeoutException;

@@ -1,5 +1,6 @@
 package org.olegpash.server.util;
 
+
 import org.olegpash.common.util.requests.CommandRequest;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -7,7 +8,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
-
 
 @Aspect
 public class AspectsForLogging {

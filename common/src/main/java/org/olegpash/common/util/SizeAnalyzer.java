@@ -1,6 +1,8 @@
 package org.olegpash.common.util;
 
 
+import org.olegpash.common.entities.MusicBand;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;

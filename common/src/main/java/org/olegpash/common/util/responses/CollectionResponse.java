@@ -2,6 +2,7 @@ package org.olegpash.common.util.responses;
 
 
 import org.olegpash.common.abstractions.AbstractResponse;
+import org.olegpash.common.entities.MusicBand;
 
 import java.util.List;
 import java.util.Set;

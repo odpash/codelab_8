@@ -1,6 +1,8 @@
 package org.olegpash.server.clientcommands;
 
 
+import org.olegpash.common.entities.MusicBand;
+import org.olegpash.common.exceptions.DatabaseException;
 import org.olegpash.common.util.requests.CommandRequest;
 import org.olegpash.common.util.responses.CommandResponse;
 import org.olegpash.server.abstractions.AbstractClientCommand;

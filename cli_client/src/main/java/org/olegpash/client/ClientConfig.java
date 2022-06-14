@@ -20,3 +20,4 @@ public final class ClientConfig {
     public static Set<String> getHistoryOfScripts() {
         return HISTORY_OF_SCRIPTS;
     }
+}

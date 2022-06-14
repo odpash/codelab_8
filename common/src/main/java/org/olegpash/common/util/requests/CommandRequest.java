@@ -2,6 +2,7 @@ package org.olegpash.common.util.requests;
 
 
 import org.olegpash.common.abstractions.AbstractRequest;
+import org.olegpash.common.entities.MusicBand;
 
 public class CommandRequest extends AbstractRequest {
 

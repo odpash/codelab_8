@@ -2,6 +2,10 @@ package org.olegpash.client.cmdTools;
 
 
 import org.olegpash.client.util.CommandValidators;
+import org.olegpash.common.entities.Album;
+import org.olegpash.common.entities.Coordinates;
+import org.olegpash.common.entities.MusicBand;
+import org.olegpash.common.entities.enums.MusicGenre;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -118,17 +122,17 @@ public class MusicBandGenerator {
     /**
      * Метод, считывающий студию с коммандной строки и устанавливающий ее для новой муыкальной группы
      */
-    private void getStudio() {
-        String address = CommandValidators.validateStringInput("Enter studio address of the group (press ENTER to skip, max length "
+    private void getAlbum() {
+        String address = CommandValidators.validateStringInput("Enter album of the group (press ENTER to skip, max length "
                         + maxAddressLength
                         + " symbols)",
                 true,
                 sc,
                 maxDescriptionLength);
         if (address != null) {
-            generatedMusicBand.setStudio(new Studio(address));
+            generatedMusicBand.setAlbum(new Album(address, 1, 1));
         } else {
-            generatedMusicBand.setStudio(null);
+            generatedMusicBand.setAlbum(null);
         }
     }
 
@@ -141,7 +145,7 @@ public class MusicBandGenerator {
         getNumberOfParticipants();
         getDescription();
         getMusicGenre();
-        getStudio();
+        getAlbum();
     }
 
     /**
